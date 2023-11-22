@@ -1429,7 +1429,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4633111824513987,
+        "zoomFactor": 0.43357743047023906,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -5823,108 +5823,6 @@
               ]
             },
             {
-              "disabled": true,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "KeyPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "s"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PlatformBehavior::IsOnFloor"
-                  },
-                  "parameters": [
-                    "P1",
-                    "PlatformerObject"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "GlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "attacking",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "P1",
-                    "Animation",
-                    "=",
-                    "\"Block\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetGlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "cannotMove",
-                    "True"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarGlobal"
-                  },
-                  "parameters": [
-                    "combo",
-                    "=",
-                    "0"
-                  ]
-                }
-              ]
-            },
-            {
-              "disabled": true,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "KeyReleased"
-                  },
-                  "parameters": [
-                    "",
-                    "s"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "P1",
-                    "Animation",
-                    "=",
-                    "\"Idle\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetGlobalVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "cannotMove",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -6073,6 +5971,15 @@
                   "parameters": [
                     "P1",
                     "HorizontalDash",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "attacking",
                     ""
                   ]
                 }
@@ -7527,6 +7434,15 @@
                   "parameters": [
                     "P2",
                     "HorizontalDash",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "attacking",
                     ""
                   ]
                 }
