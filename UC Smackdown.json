@@ -1429,7 +1429,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.46331118245139863,
+        "zoomFactor": 0.4633111824513987,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -1629,14 +1629,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1162,
           "layer": "Background",
           "name": "NewTiledSprite",
           "persistentUuid": "26becd39-a9f5-46ca-9e2c-e89b1063650a",
-          "width": 0,
-          "x": -260,
-          "y": -345,
+          "width": 1600,
+          "x": -251,
+          "y": -416,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -3087,9 +3088,9 @@
           "textAlignment": "left",
           "characterSize": 100,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 255,
+            "g": 255,
+            "r": 255
           }
         },
         {
@@ -5937,15 +5938,6 @@
                 },
                 {
                   "type": {
-                    "value": "KeyPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "k"
-                  ]
-                },
-                {
-                  "type": {
                     "inverted": true,
                     "value": "AnimatableCapability::AnimatableBehavior::Name"
                   },
@@ -7400,15 +7392,6 @@
                 },
                 {
                   "type": {
-                    "value": "KeyPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "Numpad2"
-                  ]
-                },
-                {
-                  "type": {
                     "inverted": true,
                     "value": "AnimatableCapability::AnimatableBehavior::Name"
                   },
@@ -8391,7 +8374,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Health Bars"
+          "comment": "Health"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -8420,11 +8403,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -8555,6 +8533,18 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Camera"
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
@@ -8587,11 +8577,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
