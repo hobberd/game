@@ -1268,6 +1268,75 @@
         "name": "pixil-frame3.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Baskins.jpg",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Baskins.jpg\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Baskins.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "RealCowell.jpeg",
+        "kind": "image",
+        "metadata": "",
+        "name": "RealCowell.jpeg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Beat One.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "457f097e98b8148f293724322f991fd316596f9c629e394dc8f3e3f22314c964_Beat One.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Music/Electronic/457f097e98b8148f293724322f991fd316596f9c629e394dc8f3e3f22314c964_Beat One.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Gun 4.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "6d326aaa7459782a48b425e2ff31e4c19473379e431c82cb3c8b3d50fb9540eb_Gun 4.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Sound/6d326aaa7459782a48b425e2ff31e4c19473379e431c82cb3c8b3d50fb9540eb_Gun 4.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Woosh 1.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "93a66379648984e7c67781f3480db427c1773692a954aa10972e33aa0e1e257a_Woosh 1.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Sound/93a66379648984e7c67781f3480db427c1773692a954aa10972e33aa0e1e257a_Woosh 1.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Vigilante_Carry Walk 2_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Vigilante_Carry Walk 2_1.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1360,7 +1429,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5653158055126315,
+        "zoomFactor": 0.46331118245139863,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -1374,8 +1443,8 @@
           "layer": "",
           "name": "Floor",
           "persistentUuid": "24e8e1f0-77aa-4630-8d85-46ea7af2cc8b",
-          "width": 1278,
-          "x": 0,
+          "width": 1846,
+          "x": -277,
           "y": 709,
           "zOrder": 1,
           "numberProperties": [],
@@ -1391,7 +1460,7 @@
           "name": "Floor",
           "persistentUuid": "2c0eaada-c45f-4d52-8f57-5b5bb727bff2",
           "width": 31,
-          "x": 1266,
+          "x": 1351,
           "y": -4,
           "zOrder": 1,
           "numberProperties": [],
@@ -1407,8 +1476,8 @@
           "name": "Floor",
           "persistentUuid": "714acb41-04e5-43fb-bcb8-8d4f385b4ad7",
           "width": 31,
-          "x": -22,
-          "y": -2,
+          "x": -276,
+          "y": -4,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -1435,12 +1504,12 @@
           "customSize": true,
           "depth": 1,
           "height": 84,
-          "layer": "",
+          "layer": "UI",
           "name": "Text",
           "persistentUuid": "ec3e3e3e-8c8a-46b7-8929-99348cf4ee19",
           "width": 640,
-          "x": 527,
-          "y": 152,
+          "x": 490,
+          "y": 108,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -1483,7 +1552,7 @@
           "customSize": true,
           "depth": 32,
           "height": 34,
-          "layer": "",
+          "layer": "UI",
           "name": "P1Health",
           "persistentUuid": "c5d10c21-10f5-4f10-802d-757d965869c6",
           "width": 440,
@@ -1499,7 +1568,7 @@
           "customSize": true,
           "depth": 32,
           "height": 34,
-          "layer": "",
+          "layer": "UI",
           "name": "P2Health",
           "persistentUuid": "68ea5320-7249-4e35-a3db-a6f21f363623",
           "width": 441,
@@ -1554,6 +1623,37 @@
           "x": 1052,
           "y": 588,
           "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Background",
+          "name": "NewTiledSprite",
+          "persistentUuid": "26becd39-a9f5-46ca-9e2c-e89b1063650a",
+          "width": 0,
+          "x": -260,
+          "y": -345,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 139,
+          "layer": "",
+          "name": "Cam",
+          "persistentUuid": "55ccc6f1-db6d-46f1-a84e-5b0ac2a65899",
+          "width": 42,
+          "x": 548,
+          "y": 530,
+          "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4645,6 +4745,88 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 1600,
+          "name": "NewTiledSprite",
+          "texture": "Baskins.jpg",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 1600,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "NewTiledSprite2",
+          "texture": "RealCowell.jpeg",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Cam",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Vigilante_Carry Walk 2_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 14,
+                            "y": 1
+                          },
+                          {
+                            "x": 14,
+                            "y": 31
+                          },
+                          {
+                            "x": 0,
+                            "y": 31
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -4676,6 +4858,15 @@
           },
           {
             "objectName": "P2Hitbox"
+          },
+          {
+            "objectName": "NewTiledSprite"
+          },
+          {
+            "objectName": "NewTiledSprite2"
+          },
+          {
+            "objectName": "Cam"
           }
         ]
       },
@@ -4829,7 +5020,7 @@
               },
               "parameters": [
                 "",
-                "9e37d5f5d9beef1fbc1f518778c5aa5ef0ac8087c2bba3ec8a4f89d31bc893f1_06 - Last Spike.aac",
+                "457f097e98b8148f293724322f991fd316596f9c629e394dc8f3e3f22314c964_Beat One.aac",
                 "yes",
                 "40",
                 ""
@@ -4857,6 +5048,14 @@
               },
               "parameters": [
                 "Text"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Cam"
               ]
             }
           ]
@@ -5873,6 +6072,17 @@
                     "value": "BuiltinCommonInstructions::Once"
                   },
                   "parameters": []
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "AdvancedJump::HorizontalDash::IsDashing"
+                  },
+                  "parameters": [
+                    "P1",
+                    "HorizontalDash",
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -5923,6 +6133,18 @@
                   "parameters": [
                     "cannotMove",
                     "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "93a66379648984e7c67781f3480db427c1773692a954aa10972e33aa0e1e257a_Woosh 1.aac",
+                    "",
+                    "50",
+                    ""
                   ]
                 }
               ],
@@ -7313,6 +7535,17 @@
                     "value": "BuiltinCommonInstructions::Once"
                   },
                   "parameters": []
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "AdvancedJump::HorizontalDash::IsDashing"
+                  },
+                  "parameters": [
+                    "P2",
+                    "HorizontalDash",
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -7363,6 +7596,18 @@
                   "parameters": [
                     "cannotMove2",
                     "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "93a66379648984e7c67781f3480db427c1773692a954aa10972e33aa0e1e257a_Woosh 1.aac",
+                    "",
+                    "50",
+                    ""
                   ]
                 }
               ],
@@ -8312,10 +8557,117 @@
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Cam",
+                "=",
+                "(P1.X()+P2.X())/2",
+                "=",
+                "(P1.Y()+P2.Y())/2"
+              ]
+            },
+            {
+              "type": {
+                "value": "FixCamera"
+              },
+              "parameters": [
+                "",
+                "Cam",
+                "-250",
+                "0",
+                "1368",
+                "720",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
           "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "Distance"
+              },
+              "parameters": [
+                "P1",
+                "P2",
+                "1200",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "P1",
+                "1500",
+                "0",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "P2",
+                "1500",
+                "0",
+                "0"
+              ]
+            }
+          ]
         }
       ],
       "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Background",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
         {
           "ambientLightColorB": 0,
           "ambientLightColorG": 8042920,
@@ -8342,6 +8694,38 @@
             }
           ],
           "effects": []
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "UI",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
         }
       ],
       "behaviorsSharedData": [
