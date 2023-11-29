@@ -1548,6 +1548,33 @@
         "name": "assets\\aH5VSCvQkwV2P8fFQCDz2NZ6NgAAAAASUVORK5CYII.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite4",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/oski head.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\oski head.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_sammy idle.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/assets_sammy idle.png\"}",
+        "name": "assets\\sammy idle",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1651,7 +1678,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7130377630690401,
+        "zoomFactor": 0.6672773998329978,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -1713,12 +1740,12 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 180,
+          "height": 150,
           "layer": "",
           "name": "Sammy_Background",
           "persistentUuid": "b670dfae-6594-47a2-889f-c5dc39383f6d",
           "width": 150,
-          "x": 200,
+          "x": 300,
           "y": 300,
           "zOrder": 1,
           "numberProperties": [],
@@ -1729,13 +1756,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 128,
+          "height": 300,
           "layer": "",
           "name": "NewSprite",
           "persistentUuid": "9b5d60f4-9f56-4501-8f54-5f37129ebfc7",
-          "width": 134,
-          "x": 208,
-          "y": 327,
+          "width": 300,
+          "x": 223,
+          "y": 340,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -1745,12 +1772,12 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 180,
+          "height": 150,
           "layer": "",
           "name": "Bear_Background",
           "persistentUuid": "5c7d6f0e-d69e-4f2a-ad19-0017ac9cf2f5",
           "width": 150,
-          "x": 500,
+          "x": 700,
           "y": 300,
           "zOrder": 3,
           "numberProperties": [],
@@ -1765,8 +1792,8 @@
           "name": "P1Arrow",
           "persistentUuid": "507e55f7-94c8-42fb-868a-f4a029917d15",
           "width": 0,
-          "x": 201,
-          "y": 299,
+          "x": 300,
+          "y": 300,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -1780,25 +1807,9 @@
           "name": "Select",
           "persistentUuid": "7009db07-2fa5-4e47-b848-fd8a6be3b0cb",
           "width": 0,
-          "x": 156,
-          "y": 67,
+          "x": 47,
+          "y": 61,
           "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 180,
-          "layer": "",
-          "name": "Other_Background",
-          "persistentUuid": "ec168312-ec1e-48e4-b022-0ea57a4b9cfe",
-          "width": 150,
-          "x": 800,
-          "y": 300,
-          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1811,9 +1822,41 @@
           "name": "P2Arrow",
           "persistentUuid": "0f828f91-0127-441b-b0b9-ee08db01ebbb",
           "width": 0,
-          "x": 296,
-          "y": 299,
+          "x": 400,
+          "y": 300,
           "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 763,
+          "layer": "",
+          "name": "NewSprite2",
+          "persistentUuid": "1e3371b9-9fe3-433a-86a5-60998f4f960e",
+          "width": 1244,
+          "x": -6,
+          "y": -5,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 200,
+          "layer": "",
+          "name": "bear",
+          "persistentUuid": "9a8f438a-d417-4081-8b9c-cfde32a510e4",
+          "width": 200,
+          "x": 678,
+          "y": 353,
+          "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1831,16 +1874,17 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "",
+              "name": "assets\\sammy idle",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\sammy idle.png",
+                      "image": "assets\\sammy idle",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1856,20 +1900,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 352,
+                            "x": 640,
                             "y": 0
                           },
                           {
-                            "x": 1280,
+                            "x": 992,
                             "y": 0
                           },
                           {
-                            "x": 1280,
-                            "y": 1584
+                            "x": 992,
+                            "y": 480
                           },
                           {
-                            "x": 352,
-                            "y": 1584
+                            "x": 640,
+                            "y": 480
                           }
                         ]
                       ]
@@ -2140,14 +2184,14 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Choose Your Fighter",
+          "string": "CHOOSE YOUR FIGHTER",
           "font": "3bd40ac788d44626fd640ec67ef04ab0364816b5e8c831f2077bff8805cfe689_Roboto-Bold.ttf",
           "textAlignment": "left",
           "characterSize": 100,
           "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
+            "b": 28,
+            "g": 231,
+            "r": 248
           }
         },
         {
@@ -2288,6 +2332,127 @@
             "g": 2,
             "r": 208
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite4",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "bear",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\oski head.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 544,
+                            "y": 0
+                          },
+                          {
+                            "x": 1104,
+                            "y": 0
+                          },
+                          {
+                            "x": 1104,
+                            "y": 512
+                          },
+                          {
+                            "x": 544,
+                            "y": 512
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -2313,6 +2478,12 @@
           },
           {
             "objectName": "Select"
+          },
+          {
+            "objectName": "NewSprite2"
+          },
+          {
+            "objectName": "bear"
           }
         ]
       },
@@ -2526,7 +2697,7 @@
                       "parameters": [
                         "increment",
                         "!=",
-                        "2"
+                        "1"
                       ]
                     }
                   ],
@@ -2867,7 +3038,7 @@
                       "parameters": [
                         "increment2",
                         "!=",
-                        "2"
+                        "1"
                       ]
                     }
                   ],
@@ -3083,22 +3254,24 @@
           "conditions": [
             {
               "type": {
+                "inverted": true,
                 "value": "VarGlobalTxt"
               },
               "parameters": [
                 "p1Char",
                 "=",
-                "\"Sam\""
+                "\"none\""
               ]
             },
             {
               "type": {
+                "inverted": true,
                 "value": "VarGlobalTxt"
               },
               "parameters": [
                 "p2Char",
                 "=",
-                "\"Sam\""
+                "\"none\""
               ]
             }
           ],
@@ -3576,7 +3749,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5117784035210194,
+        "zoomFactor": 0.6244537826600015,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -3607,8 +3780,8 @@
           "name": "Floor",
           "persistentUuid": "2c0eaada-c45f-4d52-8f57-5b5bb727bff2",
           "width": 31,
-          "x": 1351,
-          "y": -4,
+          "x": 1409,
+          "y": -5,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -3650,13 +3823,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 64,
+          "height": 63,
           "layer": "",
           "name": "Platform",
           "persistentUuid": "9c21480f-eb55-440e-8bf1-49ab318ad1bc",
           "width": 375,
-          "x": 78,
-          "y": 528,
+          "x": 80,
+          "y": 536,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -3671,8 +3844,8 @@
           "name": "Platform",
           "persistentUuid": "108dd5a4-4869-4cb4-8108-ded18a466963",
           "width": 420,
-          "x": 824,
-          "y": 528,
+          "x": 820,
+          "y": 536,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -3746,11 +3919,11 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 115,
+          "height": 110,
           "layer": "",
           "name": "P2",
           "persistentUuid": "b567b645-6f53-4874-b93b-c21e864da3e3",
-          "width": 102,
+          "width": 110,
           "x": 1052,
           "y": 596,
           "zOrder": 10,
@@ -3778,11 +3951,11 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 112,
+          "height": 110,
           "layer": "",
           "name": "P1",
           "persistentUuid": "4a523223-7b72-4f8e-9ec3-fa7b8770db75",
-          "width": 96,
+          "width": 110,
           "x": 72,
           "y": 598,
           "zOrder": 13,
@@ -3798,10 +3971,10 @@
           "layer": "Background",
           "name": "NewSprite",
           "persistentUuid": "a929d7fd-50da-4a45-868e-b2c3d51f4723",
-          "width": 1434,
-          "x": -152,
+          "width": 1468,
+          "x": -186,
           "y": -160,
-          "zOrder": 14,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3815,7 +3988,7 @@
           "name": "LeftWall",
           "persistentUuid": "6f77cea0-183a-4252-ae4d-907a9240c344",
           "width": 24,
-          "x": -222,
+          "x": -160,
           "y": -9,
           "zOrder": 15,
           "numberProperties": [],
@@ -3831,7 +4004,7 @@
           "name": "RightWall",
           "persistentUuid": "414f3e19-437a-466c-b832-dae2742e893b",
           "width": 27,
-          "x": 1321,
+          "x": 1218,
           "y": -5,
           "zOrder": 16,
           "numberProperties": [],
